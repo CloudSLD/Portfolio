@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  font-family: 'Anton', sans-serif;
+}
+  
+
+body{
+  background-image: url(/assets/Backgro.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  color: #FFFFFF;
+  
+}
+  
+
+
+.aaa{
+  display: block;
+  font-size: 19px;
+  padding: 30px;
+  //border: solid white 1px;
+}
+.right{
+font-family: 'Anton', sans-serif;
+display: flex;
+gap: 70%;
+align-items: center;
+text-align: center;
+}
+
+.right h1{
+  font-size: 50px;
+}
+
+
+
+.menu{
+  display: inline-block;
+  text-decoration: none;
+  align-items: center;
+  height: 50px;
+  
+  //border: solid red 1px;
+  color: white;
+  
+  
+}
+
+.ul, a:hover{
+  background-color: goldenrod;
+  transition: 0.3s ease-in-out;
+  
+}
+
+
+
+
+.ul, ol{
+  padding: 10px;
+  display: inline-block;
+  
+}
+
+
+.main, ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+}
+
+.main, p{
+  text-align: center;
+  //border: solid red 1px;
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+
+.link{
+  padding: 20px;
+  width: 200px;
+  text-decoration: none;
+  color: white;
+  border: goldenrod solid 1px;
+  border-radius: 30%;
+
+}
+
+.link:hover{
+  border-radius: 100%;
+  transition:0.3s ease-in-out ;
+}
+
+img{
+  animation: float 3s ease-in-out infinite;
+
+}
+
+@keyframes float{
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-50px);
+  }
+  
+}
+
+
